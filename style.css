@@ -71,7 +71,7 @@ body {
     display: flex;
     gap: 30px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     .hero-text-button {
       .headline {
@@ -182,7 +182,6 @@ body {
 .main-title {
   font-family: "Work Sans", sans-serif;
   color: #fff;
-  /* padding: 80px 117px 60px 117px; */
 }
 .main-title h2 {
   font-weight: 600;
@@ -200,7 +199,7 @@ body {
 }
 .collection-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -208,6 +207,11 @@ body {
   display: flex;
   gap: 15px;
   margin-top: 10px;
+}
+.section1,
+.section2,
+.section3 {
+  width: 330px;
 }
 .collection-card span {
   display: inline-block;
@@ -241,7 +245,7 @@ body {
   grid-template-columns: repeat(4, 240px);
   column-gap: 30px;
   row-gap: 30px;
-  justify-content: space-between;
+  justify-content: center;
 }
 .collection-name {
   background: #3b3b3b;
@@ -405,7 +409,7 @@ body {
 }
 .card-NFT {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   padding: 60px 115px 80px 115px;
   gap: 30px;
 }
@@ -458,6 +462,105 @@ body {
   font-weight: 400;
   font-size: 16px;
   text-transform: capitalize;
+}
+.NFT-info {
+  width: 100%;
+  height: 640px;
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%),
+    url("/Icons/New folder (3)/a6f43f9350c73503d13e1fe1a0e3277804ef1192.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 0, 64%;
+}
+.NFT-info-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 360px 115px 60px 115px;
+}
+.NFT-artst-name-button {
+  width: 755px;
+}
+.NFT-artst-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: #3b3b3b;
+  border-radius: 20px;
+  padding: 10px 20px;
+  width: 151px;
+
+  p {
+    color: #fff;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}
+.NFT-artst-main-name {
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 51px;
+  line-height: 110%;
+  text-transform: capitalize;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.NFT-artst-btn {
+  display: flex;
+  align-items: center;
+  color: #2b2b2b;
+  gap: 12px;
+  padding: 22px 50px;
+  border-radius: 20px;
+  border-style: none;
+}
+.action-timer {
+  backdrop-filter: blur(10px);
+  background: #3b3b3b80;
+  padding: 30px;
+  color: #fff;
+  border-radius: 20px;
+  width: 295px;
+  .action-timer-status {
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    padding-bottom: 10px;
+  }
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+.hours-number {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-transform: capitalize;
+  padding-bottom: 5px;
+}
+.hours-types {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 110%;
+}
+.timer-dots {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  display: inline-block;
+  align-items: start;
 }
 
 .header-how-it-work {
